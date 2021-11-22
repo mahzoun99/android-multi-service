@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cartbecart">
+
+    <TextView
+        android:id="@+id/cartbecartOnvan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="25dp"
+        android:text="انتقال وجه کارت به کارت"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Cart_maghsad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cartbecartOnvan"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="193dp"
+        android:layout_marginLeft="193dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="شماره کارت مقصد"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/MablaghEnteghali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Cart_maghsad"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="198dp"
+        android:layout_marginLeft="198dp"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="مبلغ"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/Ok_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MablaghEnteghali"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="154dp"
+        android:layout_marginLeft="154dp"
+        android:layout_marginTop="37dp"
+        android:text="پرداخت"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>

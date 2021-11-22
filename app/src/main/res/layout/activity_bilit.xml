@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bilit">
+
+    <ScrollView
+        android:layout_width="172dp"
+        android:layout_height="201dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.272">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/mabda1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="تهران" />
+
+            <Button
+                android:id="@+id/mabda2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="مشهد" />
+
+            <Button
+                android:id="@+id/mabda3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="تبریز" />
+
+            <Button
+                android:id="@+id/mabda4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="شیراز" />
+
+            <Button
+                android:id="@+id/mabda6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="یزد" />
+
+            <Button
+                android:id="@+id/mabda7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="اصفهان" />
+
+            <Button
+                android:id="@+id/mabda8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="رشت" />
+
+            <Button
+                android:id="@+id/mabda9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="بندرعباس" />
+
+            <Button
+                android:id="@+id/mabda5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="بجنورد" />
+
+            <Button
+                android:id="@+id/mabda10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="زاهدان" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="172dp"
+        android:layout_height="201dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.035"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.272">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/maghsad1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" تهران" />
+
+            <Button
+                android:id="@+id/maghsad2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="مشهد" />
+
+            <Button
+                android:id="@+id/maghsad3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="تبریز" />
+
+            <Button
+                android:id="@+id/maghsad4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="شیراز" />
+
+            <Button
+                android:id="@+id/maghsad5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="یزد" />
+
+            <Button
+                android:id="@+id/maghsad6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="اصفهان" />
+
+            <Button
+                android:id="@+id/maghsad7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="رشت" />
+
+            <Button
+                android:id="@+id/maghsad8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="بندرعباس" />
+
+            <Button
+                android:id="@+id/maghsad9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="بجنورد" />
+
+            <Button
+                android:id="@+id/maghsad10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="زاهدان" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="94dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="مقصد"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.133" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="106dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="مبدا"
+        android:textColor="@android:color/black"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.851"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.134" />
+
+    <Button
+        android:id="@+id/taidesafar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="خرید بلیط"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.883" />
+
+    <TextView
+        android:id="@+id/namayeshegheymat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="1456 تومان"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.665" />
+
+    <Button
+        android:id="@+id/mohasebegheymat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="محاسبه قیمت"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.578" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>

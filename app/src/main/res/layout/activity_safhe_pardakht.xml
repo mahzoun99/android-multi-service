@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SafhePardakht">
+
+    <TextView
+        android:id="@+id/Hazine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="0dp"
+        android:gravity="center"
+        android:text="اطلاعات خرید: "
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/sh_cart"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Hazine"
+        android:layout_alignStart="@+id/Hazine"
+        android:layout_alignLeft="@+id/Hazine"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginLeft="57dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="1dp"
+        android:ems="10"
+        android:hint="شماره کارت"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ramz_dovom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sh_cart"
+        android:layout_alignStart="@+id/Hazine"
+        android:layout_alignLeft="@+id/Hazine"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="198dp"
+        android:layout_marginLeft="198dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:gravity="right"
+        android:hint="رمز دوم"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/mah"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ramz_dovom"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@+id/sal"
+        android:layout_toRightOf="@+id/sal"
+        android:ems="10"
+        android:hint="ماه"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/sal"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ramz_dovom"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="11dp"
+        android:layout_toEndOf="@+id/cvv2"
+        android:layout_toRightOf="@+id/cvv2"
+        android:ems="10"
+        android:hint="سال"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/cvv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ramz_dovom"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:gravity="right"
+        android:hint="cvv2"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/Pardakht"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sal"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="190dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="133dp"
+        android:text="پرداخت" />
+
+    <TextView
+        android:id="@+id/Error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Pardakht"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="209dp"
+        android:layout_marginLeft="209dp"
+        android:layout_marginTop="33dp"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <Button
+        android:id="@+id/fromkharidtomainpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sal"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="161dp"
+        android:layout_marginEnd="240dp"
+        android:text="بازگشت" />
+
+</RelativeLayout>

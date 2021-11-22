@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sharj">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="144dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.304">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/operatorSharj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <RadioButton
+                    android:id="@+id/sharjhamraaval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_blue_bright"
+                    android:text="    همراه اول   "
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/sharjirnacell"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_orange_light"
+                    android:text="      ایرانسل    "
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/sharjrightell"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_purple"
+                    android:text="        رایتل      "
+                    android:textStyle="bold" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="204dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.304">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/pooleSharj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/sharj1000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="هزار تومان"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/sharj2000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="دو هزار تومان"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/sharj5000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="پنج هزار تومن"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/sharj10000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ده هزار تومن"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/sharj20000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="بیست هزار تومن"
+                    android:textStyle="bold" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buysharj"
+        android:layout_width="101dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="خرید"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.526" />
+
+
+</android.support.constraint.ConstraintLayout>

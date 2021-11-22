@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fn">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".cartbecart"></activity>
+        <activity android:name=".takhfif" />
+        <activity android:name=".bilit" />
+        <activity android:name=".SafhePardakht" />
+        <activity android:name=".weather" />
+        <activity android:name=".Calender" />
+        <activity android:name=".currency" />
+        <activity android:name=".ItsMenu" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".sharj" />
+        <activity android:name=".localSN" />
+        <activity android:name=".SignIn">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
